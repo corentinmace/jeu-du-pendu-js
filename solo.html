@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Jeu du pendu - Solo</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <header>
+      <a id="menu" href="index.html">Menu</a>
+      <h1>Le jeu du pendu</h1>
+      <h2 id='tour'></h2>
+    </header>
+    <main>
+      <div id="jeu">
+      <div class="container-pendu">
+        <div class="container-pendu__forme">
+          <img id="imagePendu" src="img/pendu-0.png" alt="">
+        </div>
+      </div>
+
+      <div id="word">
+
+      </div>
+      <div id="LetterUsed">
+
+      </div>
+      <div class="inputs">
+
+        <input type="text" name="Lettre" value="" maxlength="1" size="1" id="inputLetter" >
+        <input id="BoutonInput" type="submit" name="" value="Send" onclick="setLetterInput()">
+        <input id="reload" type="submit" name="" value="Restart" onclick="document.location.reload(true);" >
+      </div>
+    </div>
+    </main>
+    <script src="solo.js">
+
+    </script>
+  </body>
+</html>

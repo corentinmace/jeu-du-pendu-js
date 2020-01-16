@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Muli', sans-serif;
+}
+
+#select {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+#select a {
+  color: black;
+  font-size: 2em;
+  text-decoration: none;
+  margin: 15px;
+
+}
+
+#select a:hover {
+  opacity: 0.5;
+}
+
+
+#word {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+#LetterUsed {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.letter {
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  margin: 10px;
+  border-bottom: 2px solid black;
+  height: 1em;
+  width: 0.8em;
+  text-align: center;
+}
+
+.container-pendu {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+header {
+  text-align: center;
+}
+
+#word, .inputs {
+  text-align: center;
+  font-size: 2em;
+}
+
+input, input[type="text"] {
+  font-size: 1.5em;
+  text-align: center;
+  height: 2em;
+}
+
+input[type="text"] {
+  width: 1em;
+  text-transform: uppercase;
+}
+
+#reload {
+  display: none;
+}
+
+#menu {
+  color: black;
+  text-decoration: none;
+  margin: 10px;
+  float: left;
+font-size: 1.5em;
+}
+
+#menu:hover {
+  text-decoration: underline;
+  opacity: 50%;
+}
+
+#InputMot {
+    width: auto;
+}
